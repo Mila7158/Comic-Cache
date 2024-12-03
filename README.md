@@ -41,6 +41,15 @@ This is the starter for the Flask React project.
    flask run
    ```
 
+##  As an alternative, run in root directory 
+pipenv run flask db upgrade   
+pipenv run flask seed all
+pipenv run flask run
+## then cd into frontend - react-vite and run
+npm run dev
+# and from frontend run
+npm run build
+
 7. The React frontend has no styling applied. Copy the __.css__ files from your
    Authenticate Me project into the corresponding locations in the
    __react-vite__ folder to give your project a unique look.
